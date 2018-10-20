@@ -7,7 +7,7 @@ This project is a hack-a-thon style experimental project to create simple execut
      - Content Services (ACS) - ```content-services-jetty/target/alfresco-content-services-6.0.7-ga.jar```
      - Share ```share-jetty/target/alfresco-share-6.0.c.jar```
   2. Configure
-     - Copy [config/alfresco-global.properties.sample]() to ```config/alfresco-global.properties```
+     - Copy [config/alfresco-global.properties.sample](config/alfresco-global.properties.sample) to ```config/alfresco-global.properties```
      - Default configuration expects a MySQL database *alfresco* running on localhost. User and password: *alfresco*
      - **For Production usage**: Customize configuration and do not use *alfresco* as password!
   3. Run applications
