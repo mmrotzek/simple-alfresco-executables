@@ -14,7 +14,7 @@ This project is a hack-a-thon style experimental project to create simple execut
      - Content Services   
        ```java -jar content-services-jetty/target/alfresco-content-services-6.0.7-ga.jar```
      - Share   
-       ```java -jar content-services-jetty/target/alfresco-content-services-6.0.7-ga.jar```
+       ```java -jar share-jetty/target/alfresco-share-6.0.c.jar```
 
 
 ## Configuration
