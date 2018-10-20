@@ -4,3 +4,6 @@ bin/
 .classpath
 *.log
 target/
+.DS_Store
+alf_data_dev/
+config/alfresco-global.properties

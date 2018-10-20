@@ -26,7 +26,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
  */
 public class Runner {
 	public static int DEFAULT_PORT = 8080;
-	private static String alfresco_configurationpath = "./config/content-services";
+	private static String alfresco_configurationpath = "./config";
 	private static String alfresco_favicon = "webapps/alfresco/favicon.ico";
 	private static String alfresco_contextpath = "/alfresco";
 	
@@ -121,6 +121,9 @@ public class Runner {
 
 			HelpFormatter formatter = new HelpFormatter();
 			formatter.printHelp("java -jar <jar>", USAGE_HEADER, options, USAGE_FOOTER, true);
+			
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 

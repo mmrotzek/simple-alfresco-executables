@@ -1,0 +1,32 @@
+dir.root=./alf_data_dev
+
+#
+# Database
+#-------------
+db.username=alfresco
+db.password=alfresco
+
+# MySQL
+db.driver=org.gjt.mm.mysql.Driver
+db.url=jdbc:mysql://localhost/alfresco?useUnicode=yes&characterEncoding=UTF-8
+
+# PostgreSQL
+#db.driver=org.postgresql.Driver
+#db.url=jdbc:postgresql://localhost:5432/alfresco
+
+#
+# URL Generation Parameters
+#-------------
+alfresco.context=alfresco
+alfresco.host=localhost
+alfresco.port=8080
+alfresco.protocol=http
+
+share.context=share
+share.host=localhost
+share.port=8081
+share.protocol=http
+
+# File servers related properties
+cifs.enabled=false
+ftp.enabled=false

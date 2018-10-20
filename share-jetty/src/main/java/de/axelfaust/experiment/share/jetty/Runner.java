@@ -28,7 +28,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class Runner {
 
 	public static int DEFAULT_PORT = 8081;
-	private static String share_configurationpath = "./config/share";
+	private static String share_configurationpath = "./config";
 	private static String share_favicon = "webapps/share/favicon.ico";
 	private static String share_contextpath = "/share";
 	
