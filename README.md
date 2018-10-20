@@ -70,4 +70,4 @@ Improvements for production usage:
   - port
   - configuration extra classpath directory
 4. setup docker and docker-compose file
-5. default alfresco-global properties with embedded database?
+5. [DONE] default alfresco-global properties
