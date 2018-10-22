@@ -8,7 +8,7 @@ This project is a hack-a-thon style experimental project to create simple execut
      - Share ```share-jetty/target/alfresco-share-6.0.c.jar```
   2. Configure
      - Copy [config/alfresco-global.properties.sample](config/alfresco-global.properties.sample) to ```config/alfresco-global.properties```
-     - Default configuration expects a MySQL database *alfresco* running on localhost. User and password: *alfresco*
+     - Default configuration expects a MySQL database *alfresco* running on localhost. User and password: *alfresco*. See [config/create-db.sql] as example.
      - **For Production usage**: Customize configuration and do not use *alfresco* as password!
   3. Run applications
      - Content Services   
